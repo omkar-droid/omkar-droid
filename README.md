@@ -3,7 +3,8 @@
 
 🎓 **Master’s in Computer Science** – Illinois Institute of Technology, Chicago  
 🚀 **AI/ML Engineer | Software Engineer | C++ Low-Latency Systems Developer**  
-🌍 **Location**: Chicago, IL | 🌐 [Portfolio](https://omkars-portfolio.netlify.app) | 🔗 [LinkedIn](https://www.linkedin.com/in/omkar-shewale-805a86203/)
+🌍 **Location**: Chicago, IL | 🌐 [Portfolio](https://omkars-portfolio.netlify.app) | 🔗 [LinkedIn](https://www.linkedin.com/in/omkar-shewale-805a86203/) | 🧠 [LeetCode](https://leetcode.com/omkar_shewale) | 💻 [Codeforces](https://codeforces.com/profile/omkar_droid)
+
 
 ---
 
