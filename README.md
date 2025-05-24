@@ -1,3 +1,9 @@
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/omkar-droid/omkar-droid/main/assets/banner-dark.png">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/omkar-droid/omkar-droid/main/assets/banner-light.png">
+  <img alt="Omkar Shewale Banner" src="https://raw.githubusercontent.com/omkar-droid/omkar-droid/main/assets/banner-light.png" width="100%">
+</picture>
+
 # 👋 Hi, I'm Omkar Shewale
 
 🎓 **Master’s in Computer Science** – Illinois Institute of Technology, Chicago  
