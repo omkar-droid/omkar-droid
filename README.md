@@ -1,7 +1,8 @@
 
 <p align="center">
-  <img src="https://i.ibb.co/vZVYJYY/developer-banner.png" alt="Cartoon Developer Banner" width="100%">
+  <img src="https://github.com/ritik307/ritik307/blob/main/images/banner.gif" alt="Cartoon Developer Banner" width="100%">
 </p>
+
 # 👋 Hi, I'm Omkar Shewale
 
 🎓 **Master’s in Computer Science** – Illinois Institute of Technology, Chicago  
