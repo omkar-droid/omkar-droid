@@ -1,8 +1,7 @@
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/saadeghi/saadeghi/master/dino.gif" width="100%" alt="Animated cartoon banner">
+  <img src="https://i.ibb.co/vZVYJYY/developer-banner.png" alt="Cartoon Developer Banner" width="100%">
 </p>
-
 # 👋 Hi, I'm Omkar Shewale
 
 🎓 **Master’s in Computer Science** – Illinois Institute of Technology, Chicago  
