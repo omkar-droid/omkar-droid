@@ -7,7 +7,7 @@
 
 ---
 
-## 🧠 About Me
+##  About Me
 
 I’m a passionate software engineer with a strong foundation in AI/ML, system programming, and scalable backend development. From building real-time inference pipelines to designing high-performance C++ engines and full-stack platforms, I love solving problems that demand both precision and performance.
 
@@ -43,7 +43,7 @@ I’m a passionate software engineer with a strong foundation in AI/ML, system p
 
 ## 🚀 Featured Projects
 
-### 🧠 [AI-Powered Document Summarization (RAG + LLMs)](https://github.com/omkar-droid/llm-rag-summarizer)
+###  [AI-Powered Document Summarization (RAG + LLMs)](https://github.com/omkar-droid/llm-rag-summarizer)
 Built a Retrieval-Augmented Generation system integrating LangChain, Pinecone, Hugging Face Transformers, and OpenAI GPT APIs. Improved BLEU scores by 30% vs standard models.
 
 ### 📈 [Low-Latency Order Matching Engine (C++)](https://github.com/omkar-droid/order-matching-engine)
