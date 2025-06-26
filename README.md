@@ -9,7 +9,13 @@
 
 ##  About Me
 
-I’m a passionate software engineer with a strong foundation in AI/ML, system programming, and scalable backend development. From building real-time inference pipelines to designing high-performance C++ engines and full-stack platforms, I love solving problems that demand both precision and performance.
+Machine Learning Engineer with 3+ years of experience designing, developing, and deploying advanced ML systems using 
+TensorFlow, PyTorch, and Scikit-learn. Proficient in deep learning (CNNs, RNNs, Transformers), generative AI (GANs, 
+VAEs), and NLP using BERT and Hugging Face Transformers. Specialized in GPU-accelerated model optimization with 
+CUDA, TensorRT, and ONNX, achieving up to 5.7× speedups and 40%+ inference latency reduction on real-time 
+workloads. Skilled in building scalable MLOps pipelines (Docker, Kubernetes, MLflow) and big data processing with 
+Spark, Pandas, and Snowflake. Adept at deploying models on cloud platforms (AWS, GCP), driving performance gains 
+and business impact.
 
 ---
 
@@ -40,13 +46,22 @@ I’m a passionate software engineer with a strong foundation in AI/ML, system p
 
 ---
 
-## 🛠️ Skills & Technologies
+## 🛠️ Skills
 
-**Languages:** Python, C++, C, JavaScript, TypeScript  
-**Frameworks/Tools:** LangChain, Hugging Face, PyTorch, TensorFlow, FastAPI, Flask, Django, Node.js  
-**Cloud & DevOps:** AWS (EC2, Lambda, Inferentia), GCP, Azure, Docker, Kubernetes, GitHub Actions, Apache Airflow  
-**Databases & Storage:** PostgreSQL, MongoDB, Redis, Elasticsearch, Pinecone, FAISS  
-**Systems:** Linux (Bash, perf, GDB), Sockets, Multithreading, System Profiling
+
+**Programming Languages:** Python, C++, SQL, CUDA  
+**Machine Learning Frameworks:** TensorFlow, PyTorch, Scikit-learn, Keras, XGBoost, LightGBM  
+**Deep Learning:** CNNs, RNNs, Transformers, Generative AI (GANs, VAEs), Hugging Face Transformers  
+**Data Processing & Analysis:** Pandas, NumPy, Apache Spark, Dask  
+**GPU Optimization & Inference Acceleration:** TensorRT, CUDA, Nsight Compute, FP16/BF16, Kernel Fusion, Quantization, Inference Latency Reduction  
+**Cloud Platforms:** AWS (SageMaker, Lambda, EC2), Google Cloud Platform (AI Platform, BigQuery), Azure ML  
+**Model Deployment & MLOps:** Docker, Kubernetes, MLflow, Kubeflow, REST APIs, CI/CD pipelines  
+**Natural Language Processing (NLP):** BERT, Hugging Face Transformers, SpaCy, NLTK, Sentiment Analysis  
+**Big Data Technologies:** Hadoop, Apache Kafka, Snowflake  
+**Version Control & Collaboration:** Git, GitHub, GitLab, Bitbucket  
+**Visualization Tools:** Matplotlib, Seaborn, Tableau, Power BI  
+**Databases:** MySQL, PostgreSQL, MongoDB, Redis  
+**Other Tools:** Jupyter Notebook, FastAPI, Flask, Airflow  
 
 ---
 
