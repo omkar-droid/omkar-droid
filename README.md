@@ -15,19 +15,28 @@ I’m a passionate software engineer with a strong foundation in AI/ML, system p
 
 ## 💼 Professional Experience
 
-### 🔹 PM Accelerator — *AI/ML Software Engineer Intern*
-- Developed ArtMatchAI: a scalable ML-powered artwork recommendation engine using Elasticsearch + LightFM.
-- Built vector search pipelines using Pinecone & PostgreSQL.
-- Designed internal data ingestion and labeling systems.
+### 🔹 ServiceNow, IL — *ML Engineer*  
+**Nov 2024 – Current**  
+- Accelerated inference for AI agents by optimizing large language models with ONNX Runtime and NVIDIA Triton Inference Server, achieving **40% lower latency** in real-time IT service desk responses using GPU-based parallel processing.  
+- Developed and deployed **GPU-accelerated MLOps pipelines** using CUDA and TensorRT, integrated with LangChain and AWS SageMaker, reducing model inference time by **30%** for high-throughput workflows.  
+- Designed intelligent AI agents with **LangChain** and **LangGraph**, leveraging Hugging Face Transformers for NLP tasks, resulting in a **25% reduction** in ticket resolution time via enhanced intent detection and response generation.  
+- Engineered real-time data pipelines using **Apache Spark** and **Pandas**, integrated with **Snowflake** and **PostgreSQL**, powering Tableau dashboards for operational insights.  
+- Fine-tuned deep learning models using **PyTorch** and **LangChain** for predictive maintenance and workflow automation, deployed via **FastAPI** and REST APIs to production systems, boosting process efficiency by **20%**.  
+- Built multi-agent systems with **AutoGen** to orchestrate complex IT operations, leveraging TensorFlow and Scikit-learn for predictive analytics, improving incident prioritization accuracy by **18%**.
 
-### 🔹 iNeuron AI — *AI/ML Software Engineer Intern*
-- Automated GPT-4/LLaMA-driven data analysis workflows.
-- Deployed inference pipelines using AWS Inferentia & Trainium.
-- Integrated C++ modules for preprocessing in ML jobs.
+---
 
-### 🔹 Exposys Data Labs — *Software Developer Intern*
-- Created a multilingual translation engine using Google Translate APIs across 130+ languages.
-- Enhanced backend systems using Flask & PostgreSQL.
+### 🔹 Orion Technolab, India — *ML Engineer*  
+**Jan 2021 – July 2023**  
+- Engineered end-to-end ML pipelines using **Kubernetes** and **MLflow**, automating retraining and deployment cycles, reducing deployment time by **50%**.  
+- Built and fine-tuned **transformer-based models** for NLP tasks, enhancing text summarization accuracy by **15%**.  
+- Deployed models using **TensorFlow**, **PyTorch**, and **Scikit-learn** for predictive analytics in IT service management, improving accuracy by **20%**.  
+- Integrated **XGBoost** and **LightGBM** models into production, boosting customer churn prediction accuracy by **22%**.  
+- Leveraged **Google Cloud Platform**, including AI Platform and BigQuery, for scalable analytics on **5 TB+** datasets, improving query efficiency by **35%**.  
+- Developed **GANs** and **VAEs** for synthetic data generation, covering **80%** of edge test cases for robustness.  
+- Implemented CI/CD for MLOps with **Docker** and **GitLab**, ensuring zero-downtime updates and full SLA compliance.  
+- Built interactive dashboards using **Tableau** and **Seaborn**, enabling **30% faster** decision-making for stakeholders.  
+- Managed real-time data ingestion for **1M+ transactions/day** using **Apache Kafka** and **Airflow**.
 
 ---
 
