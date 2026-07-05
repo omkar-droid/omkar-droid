@@ -24,26 +24,13 @@ tracking).
 ## 🚀 Featured Projects
 
 ### ⚡ [TensorRT Inference Optimization](https://github.com/omkar-droid/tensorrt-inference-optimization)
-FP16 mixed-precision inference on NVIDIA Tensor Cores with kernel fusion and
-quantization — measurable latency reduction while holding accuracy within
-tolerance of the FP32 baseline. `Python · TensorRT · CUDA`
-
-### 📈 [Low-Latency Order Matching Engine](https://github.com/omkar-droid/Low-Latency-Order-Matching-Engine)
-A low-latency limit-order matching engine in modern C++ using lock-free data
-structures, pre-allocation, and cache-friendly layout for real-time financial
-workloads. `C++`
-
-### 📡 [High-Performance Market Data Feed Handler](https://github.com/omkar-droid/High-Performance-Market-Data-Feed-Handler)
-A high-throughput market-data ingestion/decoding pipeline built for
-low-latency, high-volume feeds. `C++ · Systems`
-
-### 🤖 [Multi-Agent AI Planning System](https://github.com/omkar-droid/Multi-Agent-AI-Planning-System-for-Software-Engineering-)
-A multi-agent LLM system for software-engineering tasks — task decomposition,
-tool use, and coordinated planning across agents. `Python · LLM Agents`
+A full TensorRT inference pipeline for CNNs — ONNX export, engine build, INT8
+calibration, benchmarking, and accuracy validation across FP16/INT8 precision.
+`Python · TensorRT · CUDA`
 
 ### 📚 [AI-Powered Document Summarization (RAG + LLMs)](https://github.com/omkar-droid/AI-Powered-Document-Summarization)
-An end-to-end retrieval-augmented summarization pipeline (Kafka ingestion,
-vector retrieval, LLM generation) served behind a low-latency API.
+An end-to-end retrieval-augmented summarization service — Kafka ingestion,
+vector retrieval, LLM generation, and Redis/Cassandra storage behind a FastAPI.
 `Python · RAG · FastAPI`
 
 ---
@@ -59,11 +46,12 @@ vector retrieval, LLM generation) served behind a low-latency API.
 
 ---
 
-## 🔬 Currently exploring
+## 🔬 Currently building
 
-Distributed transformer inference on **Cloud TPU with JAX/XLA** (mesh sharding
-strategies + Pallas kernels), and cross-runtime **KV-cache / prefix-reuse
-benchmarking** on H100.
+- **TPUServe-JAX** — distributed transformer inference on Cloud TPU with
+  JAX/XLA: from-scratch decoder, four mesh-sharding strategies, multi-model
+  serving, and a Pallas attention kernel. *(publishing soon)*
+- Cross-runtime **KV-cache / prefix-reuse benchmarking** on NVIDIA H100.
 
 ---
 
