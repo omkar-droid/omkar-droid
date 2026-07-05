@@ -12,6 +12,14 @@ and distributed inference across GPUs and TPUs.
 
 ## 🔧 Open Source
 
+Contributing to **[vLLM](https://github.com/vllm-project/vllm)**, the
+high-throughput LLM inference engine — added native support for the
+**EuroBERT** multilingual encoder as an embedding model (bidirectional-Llama
+backbone, mean pooling), verified numerically against the Hugging Face
+reference ([#47660](https://github.com/vllm-project/vllm/pull/47660)).
+
+➡️ **[My vLLM pull requests](https://github.com/vllm-project/vllm/pulls?q=is%3Apr+author%3Aomkar-droid)**
+
 Contributing to **[SGLang](https://github.com/sgl-project/sglang)**, a
 high-performance LLM serving framework — improving unit-test coverage for core
 runtime components (KV-cache, scheduler admission control, compilation
