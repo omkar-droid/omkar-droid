@@ -1,60 +1,72 @@
 # 👋 Hi, I'm Omkar Shewale
 
-🎓 **Master’s in Computer Science** – Illinois Institute of Technology, Chicago  
-🚀 **AI/ML Engineer | Software Engineer | C++ Low-Latency Systems Developer**  
+**LLM Inference & ML Systems Engineer**
+🎓 M.S. Computer Science — Illinois Institute of Technology, Chicago
 
-
-
----
-
-##  About Me
-
-Machine Learning Engineer  experience designing, developing, and deploying advanced ML systems using 
-TensorFlow, PyTorch, and Scikit-learn. Proficient in deep learning (CNNs, RNNs, Transformers), generative AI (GANs, 
-VAEs), and NLP using BERT and Hugging Face Transformers. Specialized in GPU-accelerated model optimization with 
-CUDA, TensorRT, and ONNX, achieving up to 5.7× speedups and 40%+ inference latency reduction on real-time 
-workloads. Skilled in building scalable MLOps pipelines (Docker, Kubernetes, MLflow) and big data processing with 
-Spark, Pandas, and Snowflake. Adept at deploying models on cloud platforms (AWS, GCP), driving performance gains 
-and business impact.
+I work on making large language models fast and efficient to serve — GPU
+inference optimization, serving-runtime internals (vLLM / SGLang /
+TensorRT-LLM), CUDA/Triton kernels, quantization, KV-cache & prefix reuse,
+and distributed inference across GPUs and TPUs.
 
 ---
 
-## 🛠️ Skills
+## 🔧 Open Source
 
+Contributing to **[SGLang](https://github.com/sgl-project/sglang)**, a
+high-performance LLM serving framework — improving unit-test coverage for core
+runtime components (KV-cache, scheduler admission control, compilation
+tracking).
 
-**Programming Languages:** Python, C++, SQL, CUDA  
-**Machine Learning Frameworks:** TensorFlow, PyTorch, Scikit-learn, Keras, XGBoost, LightGBM  
-**Deep Learning:** CNNs, RNNs, Transformers, Generative AI (GANs, VAEs), Hugging Face Transformers  
-**Data Processing & Analysis:** Pandas, NumPy, Apache Spark, Dask  
-**GPU Optimization & Inference Acceleration:** TensorRT, CUDA, Nsight Compute, FP16/BF16, Kernel Fusion, Quantization, Inference Latency Reduction  
-**Cloud Platforms:** AWS (SageMaker, Lambda, EC2), Google Cloud Platform (AI Platform, BigQuery), Azure ML  
-**Model Deployment & MLOps:** Docker, Kubernetes, MLflow, Kubeflow, REST APIs, CI/CD pipelines  
-**Natural Language Processing (NLP):** BERT, Hugging Face Transformers, SpaCy, NLTK, Sentiment Analysis  
-**Big Data Technologies:** Hadoop, Apache Kafka, Snowflake  
-**Version Control & Collaboration:** Git, GitHub, GitLab, Bitbucket  
-**Visualization Tools:** Matplotlib, Seaborn, Tableau, Power BI  
-**Databases:** MySQL, PostgreSQL, MongoDB, Redis  
-**Other Tools:** Jupyter Notebook, FastAPI, Flask, Airflow  
+➡️ **[My SGLang pull requests](https://github.com/sgl-project/sglang/pulls?q=is%3Apr+author%3Aomkar-droid)**
 
 ---
 
 ## 🚀 Featured Projects
 
-###  [AI-Powered Document Summarization (RAG + LLMs)](https://github.com/omkar-droid/llm-rag-summarizer)
-Built a Retrieval-Augmented Generation system integrating LangChain, Pinecone, Hugging Face Transformers, and OpenAI GPT APIs. Improved BLEU scores by 30% vs standard models.
+### ⚡ [TensorRT Inference Optimization](https://github.com/omkar-droid/tensorrt-inference-optimization)
+FP16 mixed-precision inference on NVIDIA Tensor Cores with kernel fusion and
+quantization — measurable latency reduction while holding accuracy within
+tolerance of the FP32 baseline. `Python · TensorRT · CUDA`
 
-### 📈 [Low-Latency Order Matching Engine (C++)](https://github.com/omkar-droid/order-matching-engine)
-Achieved sub-15μs latency using C++14, STL pre-allocation, lock-free structures, and Linux socket tuning for real-time financial workloads.
+### 📈 [Low-Latency Order Matching Engine](https://github.com/omkar-droid/Low-Latency-Order-Matching-Engine)
+A low-latency limit-order matching engine in modern C++ using lock-free data
+structures, pre-allocation, and cache-friendly layout for real-time financial
+workloads. `C++`
 
-### 🛍️ [Cloud-Native E-Commerce Platform](https://github.com/omkar-droid/ecommerce-microservices)
-Built full-stack microservices with Spring Boot, React, JWT auth, Redis caching, and CI/CD deployment on Kubernetes.
+### 📡 [High-Performance Market Data Feed Handler](https://github.com/omkar-droid/High-Performance-Market-Data-Feed-Handler)
+A high-throughput market-data ingestion/decoding pipeline built for
+low-latency, high-volume feeds. `C++ · Systems`
 
-### 💬 [AI Customer Support Chatbot](https://github.com/omkar-droid/ai-chatbot)
-Built a gRPC-based FastAPI chatbot with LangChain and OpenAI, using PostgreSQL + Redis for session management.
+### 🤖 [Multi-Agent AI Planning System](https://github.com/omkar-droid/Multi-Agent-AI-Planning-System-for-Software-Engineering-)
+A multi-agent LLM system for software-engineering tasks — task decomposition,
+tool use, and coordinated planning across agents. `Python · LLM Agents`
 
-### 📟 [Real-Time Collaborative Code Editor](https://github.com/omkar-droid/live-code-editor)
-Node.js + WebSocket-powered live code editor with React frontend and Docker/Kubernetes deployment.
+### 📚 [AI-Powered Document Summarization (RAG + LLMs)](https://github.com/omkar-droid/AI-Powered-Document-Summarization)
+An end-to-end retrieval-augmented summarization pipeline (Kafka ingestion,
+vector retrieval, LLM generation) served behind a low-latency API.
+`Python · RAG · FastAPI`
 
 ---
 
+## 🧰 Skills
 
+**Languages:** Python, C++, CUDA, SQL
+**LLM Serving & Inference:** vLLM, SGLang, TensorRT-LLM, NVIDIA Triton, ONNX Runtime, Ray Serve
+**GPU / Kernels:** CUDA & Triton kernels, CUDA Graphs, kernel fusion, Nsight, FP16/BF16/FP8, quantization
+**Inference Optimization:** continuous batching, PagedAttention / KV-cache, prefix caching, speculative decoding, tensor/pipeline parallelism, NCCL
+**ML Frameworks:** PyTorch, JAX/XLA, Hugging Face Transformers
+**Systems & MLOps:** Docker, Kubernetes, Ray, Linux performance tooling, CI/CD
+
+---
+
+## 🔬 Currently exploring
+
+Distributed transformer inference on **Cloud TPU with JAX/XLA** (mesh sharding
+strategies + Pallas kernels), and cross-runtime **KV-cache / prefix-reuse
+benchmarking** on H100.
+
+---
+
+## 📫 Reach me
+
+[LinkedIn](https://www.linkedin.com/in/omkarshewale-/) · shewaleomkar25@gmail.com
