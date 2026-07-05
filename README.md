@@ -24,11 +24,11 @@ tracking).
 ## 🚀 Featured Projects
 
 ### 🔥 [CUDA Softmax Worklog](https://github.com/omkar-droid/cuda-softmax-worklog)
-Five progressively optimized row-wise softmax CUDA kernels benchmarked on an NVIDIA
-H100 — naive → coalesced → warp-shuffle → vectorized → shared-cached — reaching
-**86% of peak HBM (3.4 TB/s), up to 2.3× faster than `torch.softmax`** (26× over the
-naive kernel), with double-precision correctness checks and a roofline-style analysis
-of each bottleneck. `CUDA · C++ · H100`
+Six progressively optimized row-wise softmax CUDA kernels benchmarked on an NVIDIA
+H100 — naive → coalesced → warp-shuffle → vectorized → shared-cached → online-stream.
+Reaches **86% of peak HBM (3.4 TB/s)** and **beats `torch.softmax` at every tested
+shape** (up to 2.3×, 26× over naive), with double-precision correctness checks and an
+honest traffic-vs-occupancy analysis of when each kernel wins. `CUDA · C++ · H100`
 
 ### ⚡ [TensorRT Inference Optimization](https://github.com/omkar-droid/tensorrt-inference-optimization)
 A full TensorRT inference pipeline for CNNs — ONNX export, engine build, INT8
