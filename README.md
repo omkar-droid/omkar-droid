@@ -13,10 +13,11 @@ and distributed inference across GPUs and TPUs.
 ## 🔧 Open Source
 
 Contributing to **[vLLM](https://github.com/vllm-project/vllm)**, the
-high-throughput LLM inference engine — added native support for the
-**EuroBERT** multilingual encoder as an embedding model (bidirectional-Llama
-backbone, mean pooling), verified numerically against the Hugging Face
-reference ([#47660](https://github.com/vllm-project/vllm/pull/47660)).
+high-throughput LLM inference engine — added support for the multilingual
+**jina-embeddings-v5-text-nano** embedding model via its bidirectional
+EuroBERT encoder backbone (encoder-only attention + task-adapter merging),
+verified numerically against the Hugging Face reference at cosine ≥ 0.99999
+([#50688](https://github.com/vllm-project/vllm/pull/50688)).
 
 ➡️ **[My vLLM pull requests](https://github.com/vllm-project/vllm/pulls?q=is%3Apr+author%3Aomkar-droid)**
 
