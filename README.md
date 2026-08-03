@@ -12,12 +12,20 @@ and distributed inference across GPUs and TPUs.
 
 ## 🔧 Open Source
 
-Contributing to **[vLLM](https://github.com/vllm-project/vllm)**, the
-high-throughput LLM inference engine — added support for the multilingual
-**jina-embeddings-v5-text-nano** embedding model via its bidirectional
-EuroBERT encoder backbone (encoder-only attention + task-adapter merging),
-verified numerically against the Hugging Face reference at cosine ≥ 0.99999
-([#50688](https://github.com/vllm-project/vllm/pull/50688)).
+**[vLLM](https://github.com/vllm-project/vllm)** — the high-throughput LLM
+inference engine. Merged contributions:
+
+- **Model support:** added the multilingual **jina-embeddings-v5-text-nano**
+  embedding model via its bidirectional EuroBERT encoder backbone. Two backbones
+  ship under one architecture name, so the checkpoint previously failed to load;
+  dispatching on `is_decoder` routes it to encoder-only attention while reusing
+  the existing task-adapter merge path. Verified against the Hugging Face
+  reference at cosine ≥ 0.99999
+  ([#50688](https://github.com/vllm-project/vllm/pull/50688)).
+- **Bugfix:** diagnosed an intermittent OpenAPI schema failure where an
+  unconstrained `cache_salt` let a fuzzer generate input that surfaced as a 500
+  instead of a 422, and fixed it at the schema layer
+  ([#50764](https://github.com/vllm-project/vllm/pull/50764)).
 
 ➡️ **[My vLLM pull requests](https://github.com/vllm-project/vllm/pulls?q=is%3Apr+author%3Aomkar-droid)**
 
